@@ -24,7 +24,7 @@ const myTheme = {
 
 const HomePage = () => {
     const [imageSrc, setImageSrc] = useState("");
-    const ImageEditor = React.createRef();
+    const imageEditor = React.createRef();
 
     const saveImageToDisk = () => {
         const imageEditorInst = imageEditor.current.imageEditorInst;
